@@ -1,0 +1,54 @@
+:root {
+  /* fonts */
+  --heading-4: Larken;
+  --h3-bold-32-40-01px: Mulish;
+  --body-small: "Nunito Sans";
+
+  /* font sizes */
+  --font-size-3xs: 10px;
+  --small-semibold-12-16-02px-size: 12px;
+  --body-small-size: 13px;
+  --subtitle-2-semibold-14-18-02px-size: 14px;
+  --body-1-regular-16-22-03px-size: 16px;
+  --h6-bold-18-24-01px-size: 18px;
+  --font-size-xl: 22px;
+  --font-size-2xl: 24px;
+  --h3-bold-32-40-01px-size: 32px;
+  --heading-2-size: 48px;
+  --heading-1-size: 54px;
+
+  /* Colors */
+  --dark: #00002a;
+  --color-gray-200: rgba(0, 0, 0, 0.87);
+  --color-gray-300: rgba(255, 255, 255, 0.87);
+  --neutral-white: #fff;
+  --purple: #662d87;
+  --color-darkslategray: #373f41;
+  --color-black: #000;
+  --grey: #cfcac7;
+  --color-lightgray-200: rgba(207, 202, 199, 0.3);
+  --blue: #a8cbf0;
+  --color-dimgray: #6c7476;
+
+  /* Gaps */
+  --gap-xs: 20px;
+  --gap-sm: 25px;
+  --gap-md: 40px;
+  --gap-lg: 50px;
+
+  /* Paddings */
+  --padding-2xs: 10px;
+  --padding-xs: 20px;
+  --padding-sm: 30px;
+  --padding-md: 100px;
+  --padding-lg: 150px;
+  --padding-xl: 175px;
+  --padding-2xl: 200px;
+
+  /* border radiuses */
+  --br-sm: 30px;
+  --br-md: 100px;
+
+  /* Effects */
+  --blur: 0px 0.5px 1px rgba(87, 90, 148, 0.1) inset;
+}
