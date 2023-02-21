@@ -1,6 +1,15 @@
-a {
+.img-href {
+  text-decoration: none;
+}
+
+.light-link {
   text-decoration: none;
   color: white;
+}
+
+.dark-link {
+  text-decoration: none;
+  color: var(--color-black);
 }
 
 body {
@@ -850,7 +859,7 @@ body {
   left: 82.92%;
   text-align: right;
 }
-.oasis-2022-all10,
+.oasis-reserved-rights,
 .privacy-policy13,
 .terms-of-service11 {
   position: absolute;
