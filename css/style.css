@@ -26,7 +26,7 @@ body {
 .background2 {
   position: absolute;
   left: 0;
-  width: 1440px;
+  width: 100%;
 }
 .background1 {
   top: 7104px;
@@ -173,7 +173,7 @@ body {
   position: absolute;
   top: 3489px;
   left: 0;
-  width: 1440px;
+  width: 100%;
   height: 1193px;
   object-fit: cover;
 }
@@ -181,7 +181,7 @@ body {
   position: absolute;
   top: 4660px;
   left: 0;
-  width: 1440px;
+  width: 100%;
   height: 50px;
   overflow: hidden;
 }
@@ -400,7 +400,7 @@ body {
   position: absolute;
   top: 4745px;
   left: 0;
-  width: 1440px;
+  width: 100%;
   height: 805px;
   font-size: var(--font-size-2xl);
 }
@@ -516,16 +516,7 @@ body {
   font-size: var(--heading-2-size);
 }
 .hero-background-icon2 {
-  position: absolute;
-  height: 100%;
   width: 100%;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
 }
 .group-icon21 {
   position: relative;
@@ -634,10 +625,7 @@ body {
   flex-shrink: 0;
 }
 .navigation11 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 1440px;
+  width: 100%;
   display: flex;
   flex-direction: row;
   padding: var(--padding-xs);
@@ -946,14 +934,23 @@ body {
   bottom: 72.29%;
   left: 47.71%;
 }
+
+input::placeholder {
+  color: white;
+}
+
 .e-mail22 {
   position: relative;
   letter-spacing: 0.2px;
   line-height: 20px;
   display: flex;
   align-items: center;
-  width: 102px;
+  width: 150px;
   flex-shrink: 0;
+  outline: none;
+  border-style: none;
+  background-color: #00002a;
+  color: white;
 }
 .button-round-icon21 {
   position: relative;
@@ -995,7 +992,7 @@ body {
   position: absolute;
   top: 14248px;
   left: 0;
-  width: 1440px;
+  width: 100%;
   height: 314px;
   text-align: left;
   font-size: var(--small-semibold-12-16-02px-size);
@@ -1190,6 +1187,12 @@ body {
   font-size: var(--body-1-regular-16-22-03px-size);
   font-family: var(--body-small);
 }
+
+.center {
+  margin: auto;
+  width: 50%;
+}
+
 .group-container {
   display: flex;
   flex-direction: column;
@@ -1272,7 +1275,7 @@ body {
 }
 .section-supercharge-features {
   top: 321px;
-  left: 0;
+  left: 2.9%;
   width: 1400px;
   font-size: var(--heading-2-size);
   font-family: var(--body-small);
@@ -1384,8 +1387,8 @@ body {
 .section-get-involved {
   position: absolute;
   top: 11732px;
-  left: 20px;
-  width: 1400px;
+  left: 4%;
+  width: 100%;
   height: 690px;
   font-size: var(--heading-2-size);
   color: var(--color-black);
