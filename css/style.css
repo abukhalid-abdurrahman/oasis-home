@@ -567,7 +567,7 @@ body {
 .group-group {
   position: absolute;
   top: 251px;
-  left: 478px;
+  left: 25%;
   flex-direction: column;
   justify-content: center;
 }
@@ -575,10 +575,7 @@ body {
   position: absolute;
   height: 5.6%;
   width: 100%;
-  top: 0;
-  right: 0;
   bottom: 94.4%;
-  left: 0;
   text-align: left;
   font-size: var(--heading-1-size);
 }
@@ -1484,7 +1481,7 @@ input::placeholder {
 .scroll-down8 {
   position: absolute;
   top: 700px;
-  left: 710px;
+  left: 50%;
   width: 19.5px;
   height: 90.5px;
   font-size: var(--font-size-3xs);
