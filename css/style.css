@@ -102,7 +102,7 @@ a.link:visited {
 }
 
 /* Framework */
-
+/* 
 .framework {
 	display: flex;
 	flex-direction: column;
@@ -130,14 +130,14 @@ a.link:visited {
 	color: #fff;
 	text-align: center;
 }
-
+ */
 /* Together */
 
 .together__container {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 50px 50px;
+	padding: 100px 50px;
 }
 
 .together__overhead {
@@ -164,7 +164,7 @@ a.link:visited {
 }
 
 /* Entrance */
-
+/* 
 .entrance__container {
 	padding: 82px 0 132px 0;
 }
@@ -203,7 +203,7 @@ a.link:visited {
 	max-width: 200px;
 	color: #fff;
 }
-
+ */
 /* First Step */
 
 .first__container {
@@ -242,7 +242,7 @@ a.link:visited {
 }
 
 /* Section Under First Step */
-
+/* 
 .first-under__container {
 	display: flex;
 	justify-content: center;
@@ -276,7 +276,7 @@ a.link:visited {
 .first-under__text {
 	color: #fff;
 }
-
+ */
 /* Second Step */
 
 .second {
@@ -427,7 +427,7 @@ a.link:visited {
 }
 
 /* Large Section */
-
+/* 
 .large--first {
 	position: relative;
 }
@@ -541,19 +541,21 @@ a.link:visited {
 .large--left--100::after {
 	height: 100%;
 }
-
+ */
 /* Fourth Step */
 
 .fourth__num {
+	margin-right: auto;
+	margin-left: auto;
 	margin-bottom: 25px;
 }
 
 .fourth__container {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	align-items: center;
-	gap: 162px;
+	display: flex;
+	justify-content: center;
 	padding: 100px 0 50px 0;
+	text-align: center;
+	max-width: 700px;
 }
 
 .fourth__img {
@@ -561,11 +563,11 @@ a.link:visited {
 }
 
 .fourth__title {
-	margin-bottom: 92px;
+	margin-bottom: 32px;
 }
 
 .fourth__text {
-	margin-bottom: 50px;
+	margin-bottom: 0px;
 }
 
 /* Community */
