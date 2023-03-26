@@ -627,7 +627,7 @@ a.link:visited {
 }
 
 .brands__logo__img {
-	width: 110px;
+	width: 170px;
 	opacity: 0.6;
 }
 
@@ -767,7 +767,7 @@ a.link:visited {
 .devres__block {
 	display: grid;
 	grid-template-columns: 1fr 2fr;
-	justify-items: center;
+	/* justify-items: center; */
 	gap: 25px;
 	border-top: 1px solid #fff;
 	border-bottom: 1px solid #fff;
@@ -823,7 +823,7 @@ a.link:visited {
 	}
 
 	.brands__logo__img {
-		width: 190px;
+		width: 250px;
 	}
 }
 
@@ -862,7 +862,7 @@ a.link:visited {
 	}
 
 	.brands__logo__img {
-		width: 150px;
+		width: 210px;
 	}
 
 	.offers__img {
@@ -1028,7 +1028,7 @@ a.link:visited {
 	}
 
 	.brands__logo__img {
-		width: 110px;
+		width: 170px;
 	}
 
 	.offers__block {
@@ -1080,7 +1080,7 @@ a.link:visited {
 	}
 
 	.brands__logo__img {
-		width: 130px;
+		width: 190px;
 	}
 
 	.brand--5,
@@ -1293,7 +1293,7 @@ a.link:visited {
 	}
 
 	.brands__logo__img {
-		width: 160px;
+		width: 220px;
 	}
 
 	.main__links {
