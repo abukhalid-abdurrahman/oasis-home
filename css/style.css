@@ -622,7 +622,7 @@ a.link:visited {
 }
 
 .brands__logo__img {
-	width: 210px;
+	width: 110px;
 	opacity: 0.6;
 }
 
@@ -1178,7 +1178,10 @@ a.link:visited {
 		grid-template-areas: 
 		"brand--1 brand--2"
 		"brand--3 brand--4"
-		"brand--5 brand--5"
+		"brand--5 brand--6"
+		"brand--7 brand--8"
+		"brand--9 brand--10"
+		"brand--11 brand--12"
 	}
 
 	.brand--1 { grid-area: brand--1; }
@@ -1186,6 +1189,12 @@ a.link:visited {
 	.brand--3 { grid-area: brand--3; }
 	.brand--4 { grid-area: brand--4; }
 	.brand--5 { grid-area: brand--5; }
+	.brand--6 { grid-area: brand--6; }
+	.brand--7 { grid-area: brand--7; }
+	.brand--8 { grid-area: brand--8; }
+	.brand--9 { grid-area: brand--9; }
+	.brand--10 { grid-area: brand--10; }
+	.brand--11 { grid-area: brand--11; }
 
 	.join__text {
 		max-width: 400px;
@@ -1242,8 +1251,14 @@ a.link:visited {
         "brand--2"
         "brand--3"
         "brand--4"
-        "brand--5";
-        row-gap: 70px;
+        "brand--5"
+		"brand--6"
+		"brand--7"
+		"brand--8"
+		"brand--9"
+		"brand--10"
+		"brand--11";
+        row-gap: 100px;
 	}
 
 	.brands__logo__img {

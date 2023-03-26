@@ -272,6 +272,12 @@ ul {
 	margin: 0 auto;
 }
 
+.footer__social__img_tg {
+	display: block;
+	height: 30px;
+	margin: 0 auto;
+}
+
 .footer__bottom {
 	display: flex;
 	justify-content: space-between;
